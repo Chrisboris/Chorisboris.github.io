@@ -1,5 +1,6 @@
 html{
     background-color: darkgrey;
+
 }
 header{
     top: 0em;
@@ -28,11 +29,13 @@ header{
     text-decoration: none;
     color: black;
     padding: 5px;
+
+
 }
 .nav-link{
    /* margin: 30px;  */
    /* display: inline; */
-   margin-right: 5px;
+   /* margin-right: 5px; */
    float: right;
    /* justify-content: space-around;  */
    text-decoration: none;
@@ -72,6 +75,15 @@ header{
     /* float:right; */
     /* color: black;  */ */
 /* }  */
+.icon{
+    float: left;
+    padding: 20px;
+    /* width: 10em; */
+  }
+  .refer{
+      padding-left: 25px;
+      text-align: left;
+  }
 #page-wrapper{
     position: relative;
 }
@@ -79,9 +91,9 @@ header{
     max-width: 1000px;
     width: 100%;
     margin-top:150px;
-    padding-top: 5em;
-    padding-left: 80px;
-    /* position: relative;  */
+    padding-top: 0em;
+    padding-left: 10em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #sign_in{
     display: flex;
@@ -104,14 +116,16 @@ h2{
     background-color: darkorange;
     width: 100px;
     height: 30px;
-}    
-.icon{ */
-    color: rgb(255, 238, 0); 
+    cursor: pointer;
+}  
+#submit:hover{
+    color: aqua;
+}  
+.icon{ 
+    /* color: rgb(255, 238, 0);  */
     display: flex; 
-    /* align-items: center;  */
-    /* justify-content: center;  */
-    /* height: 125px;  */
-    /* width: 20vw;  */
+    flex-direction: row;
+    float: left;
     color: darkorange; 
     
  }
@@ -126,7 +140,6 @@ h2{
     float: left;
     margin: 20px;
     padding: 15px;
-    background-color: darkgrey;
 }
 #border{
     width: 25%;
@@ -135,7 +148,6 @@ h2{
     float: left;
     margin: 20px;
     padding: 15px;
-    background-color: darkgrey;
 }
 #candidates{
     width: 25%;
@@ -144,7 +156,16 @@ h2{
     float: left;
     margin: 25px;
     padding: 15px;
-    background-color: darkgrey;
+}
+#omutwe{
+    background-color: rgb(68, 67, 67);
+    width: 100%;
+    }
+#omu{
+    background-color: rgb(68, 67, 67);
+}
+#twe{
+    background-color: rgb(68, 67, 67);
 }
 .my_botton{
     background-color: darkorange;
@@ -152,6 +173,9 @@ h2{
     height: 40px;
     text-align: center;
     padding: 1em;
+}
+.my_botton:hover{
+    color: aqua;
 }
 #table-1{
     border: solid;
@@ -175,14 +199,12 @@ th{
     margin: 2em;
 }
 footer{
-    display: inline-block;
-    /* margin: 30px;  */
-    display: inline; 
     margin-right: 5px; 
     float: right;
     justify-content: space-around;  
     text-decoration: none;
     color: black;
+    padding-top: 5em;
     }
 footer li {
     display: inline-block;
@@ -192,3 +214,5 @@ footer li {
 footer a{
     color: black;
 }
+footer a:hover{
+    color: rgb(0, 217, 255);
