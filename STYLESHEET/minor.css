@@ -1,7 +1,12 @@
 html{
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-image: url(school.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
+
 header{
     top: 0em;
     width: 100%;   
@@ -9,6 +14,7 @@ header{
     display: flex;
     align-items: center;
     background-color: darkblue;
+    /* background-image: url(header.jpeg); */
     justify-content: space-around;
 }
 #my_logo img{
